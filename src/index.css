@@ -149,3 +149,17 @@ body::-webkit-scrollbar-thumb:hover {
     animation: zoom 8s ease-out infinite;
   }
 
+  @keyframes filterIn {
+    0% {
+      opacity: 0;
+      transform: translateY(18px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-filterIn {
+    animation: filterIn 320ms ease-out both;
+  }

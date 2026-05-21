@@ -41,8 +41,8 @@ const FAQs = () => {
                             <h2 className="text-3xl font-bold leading-10 tracking-tight text-white">Getting Started</h2>
                             <hr className='w-32 mt-12 bg-gradient-to-r h-[1px] from-[#FC466B] to-[#3F5EFB] '/>
                             <dl className="mt-4 space-y-6 divide-y divide-white/10">
-                                {faqs.map((faq) => (
-                                    <Disclosure as="div" key={faq.question} className="pt-6">
+                                {faqs.map((faq, index) => (
+                                    <Disclosure as="div" key={`getting-started-${index}`} className="pt-6">
                                         {({ open }) => (
                                             <>
                                                 <dt>
@@ -73,8 +73,8 @@ const FAQs = () => {
                             <h2 className="text-3xl font-bold leading-10 tracking-tight text-white">Safety, Security and Polices</h2>
                             <hr className='w-32 mt-12 bg-gradient-to-r h-[1px] from-[#FC466B] to-[#3F5EFB] '/>
                             <dl className="mt-4 space-y-6 divide-y divide-white/10">
-                                {faqs.map((faq) => (
-                                    <Disclosure as="div" key={faq.question} className="pt-6">
+                                {faqs.map((faq, index) => (
+                                    <Disclosure as="div" key={`safety-${index}`} className="pt-6">
                                         {({ open }) => (
                                             <>
                                                 <dt>

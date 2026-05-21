@@ -31,9 +31,9 @@ export default function Header() {
               </div>
 
               <div className="lg:flex justify-center px-2 hidden ml-2 xl:ml-6 ">
-                <div class="p-[1px] relative bg-[#110D2E] opacity-60 rounded-full max-w-sm bg-gradient-to-r from-[#FC466B] to-[#3F5EFB]">
-                  <input class="px-3 2xl:py-2 py-1 w-full text-[#3F5EFB] border-none  rounded-full bg-inherit z-50 focus:outline-none" type="text" id="name" placeholder="Enter Your Name" />
-                  <button type="submit" class="absolute right-0 top-0 2xl:mt-3 mt-2 mr-4 z-50">
+                <div className="p-[1px] relative bg-[#110D2E] opacity-60 rounded-full max-w-sm bg-gradient-to-r from-[#FC466B] to-[#3F5EFB]">
+                  <input className="px-3 2xl:py-2 py-1 w-full text-[#3F5EFB] border-none  rounded-full bg-inherit z-50 focus:outline-none" type="text" id="name" placeholder="Enter Your Name" />
+                  <button type="submit" className="absolute right-0 top-0 2xl:mt-3 mt-2 mr-4 z-50">
                     <CiSearch className='h-5 w-5 fill-current text-white' />
                   </button>
                 </div>
@@ -98,7 +98,7 @@ export default function Header() {
 
 
               <div className="hidden ml-2 lg:block ">
-                <button class="text-nowrap 2xl:px-6 px-2 py-2 bg-[#6318F1] text-[10px]  xl:text-sm text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-105 duration-150">
+                <button className="text-nowrap 2xl:px-6 px-2 py-2 bg-[#6318F1] text-[10px]  xl:text-sm text-white font-bold rounded-full transition-transform transform-gpu  hover:shadow-lg hover:bg-gradient-to-r hover:from-[#FC466B]/40 hover:to-[#3F5EFB]/40 hover:scale-105 duration-150">
                   Apply Now
                 </button>
               </div>
@@ -109,14 +109,14 @@ export default function Header() {
 
           <Disclosure.Panel className="lg:hidden bg-[#080326] mt-3 mx-10 py-4 pb-8 bg-gradient-to-r from-[#FC466B]/10 to-[#3F5EFB]/10 ">
 
-            <div class=" absolute inset-0 left-0 top-0  bg-gradient-to-b w-[33%] h-[200px] rounded-full  blur-3xl from-purple-600/60 opacity-50 -z-10 via-purple-500/60 to-purple-400/60 "></div>
+            <div className=" absolute inset-0 left-0 top-0  bg-gradient-to-b w-[33%] h-[200px] rounded-full  blur-3xl from-purple-600/60 opacity-50 -z-10 via-purple-500/60 to-purple-400/60 "></div>
 
 
             <div className="space-y-3 flex flex-col  mx-[15%]  pb-3 pt-2">
 
-              <div class="p-[1px] relative  my-5 mt-10 ">
+              <div className="p-[1px] relative  my-5 mt-10 ">
                 <input id="username" type="text" className=" w-full px-4 py-2 mt-4 text-blue-600 opacity-70   bg-transparent  formBorder-gradient  focus:outline-none focus:ring-0" placeholder='enter your name' />
-                <button type="submit" class="absolute right-0 top-0 mt-7 mr-4 z-50">
+                <button type="submit" className="absolute right-0 top-0 mt-7 mr-4 z-50">
                   <CiSearch className='h-5 w-5 fill-current text-white' />
                 </button>
               </div>
